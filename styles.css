@@ -48,6 +48,9 @@ body {
     text-align: center;
     padding: 0 5px;
     margin-top: 20px;
+    height: 150px;
+    display: flex;
+    align-items: center;
 }
 .patternDivider {
     width: 295px;
@@ -63,10 +66,10 @@ body {
     display: flex;
     justify-content: center;
     align-items: center;
-    border-radius: 50%;
+    border-radius: 100%;
     background-color: var(--subtitle-color);
-    position: absolute;
-    bottom: 262px;
+    position: relative;
+    bottom: -50px;
     border: none;
     cursor: pointer;
 }
