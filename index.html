@@ -10,15 +10,18 @@
 </head>
 <body>
     <section class="container">
-      <h4 class="subTitle">ADVICE #117</h4>
+      <h4 class="subTitle">ADVICE #<span id="adviceNum">117</span></h4>
       <h1 class="quote">"It is easy to sit up and take notice, what’s difficult is getting up and taking accion." </h1>
       <object class="patternDivider"></object>
-      <div class="imgContainer">
-        <img src="./images/icon-dice.svg" alt="Icono de un dado">
-      </div>
+      <button id="btn" class="imgContainer">
+        <img class="btnIcon" src="./images/icon-dice.svg" alt="Icono de un dado">
+        <!-- <i class="fa-solid fa-dice-five"></i> -->
+      </button>
     </section>
     <footer class="attribution">
     Challenge by <a href="https://www.frontendmentor.io?ref=challenge" target="_blank">Frontend Mentor </a> and coded by <a href="https://github.com/lexcode1227">@lexcode</a>.
     </footer>
+    <script src="https://cdn.jsdelivr.net/npm/axios/dist/axios.min.js"></script>
+    <script src="./app.js"></script>
 </body>
 </html>
