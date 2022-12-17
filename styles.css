@@ -1,0 +1,81 @@
+:root {
+    --bg-color: #1f2632;
+    --card-color: #323a49;
+    --title-font: 28px;
+    --subtitle-font: 12px;
+    --subtitle-color: #52ffa8;
+    --title-color: #cee3e9;
+    --subtitle-font_weight: 500;
+    --title-font_weight: 700; 
+}
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+body {
+    font-family: 'Space Grotesk', sans-serif;
+    background-color: var(--bg-color);
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.container {
+    height: 350px;
+    width: 92%;
+    max-width: 350px;
+    padding: 10px 20px;
+    margin: 0 auto;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+    background-color: var(--card-color);
+    border-radius: 10px;
+}
+.subTitle {
+    font-size: var(--subtitle-font);
+    font-weight: var(--subtitle-font_weight);
+    color: var(--subtitle-color);
+    letter-spacing: 5px;
+}
+.quote {
+    font-weight: var(--title-font_weight);
+    color: var(--title-color);
+    text-align: center;
+    padding: 0 5px;
+    margin-top: 20px;
+}
+.patternDivider {
+    width: 295px;
+    height: 16px;
+    margin-top: 20px;
+    background-image: url("./images/pattern-divider-mobile.svg");
+    background-repeat: no-repeat;
+    background-size: contain;
+}
+.imgContainer {
+    width: 65px;
+    height: 65px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 50%;
+    background-color: var(--subtitle-color);
+    position: absolute;
+    bottom: 203px;
+}
+.attribution { 
+    font-size: 11px; 
+    text-align: center; 
+    position: absolute;
+    bottom: 75px;
+    color: var(--title-color);
+}
+.attribution a { 
+    color: #3e52a3;
+    text-decoration: none;
+}
